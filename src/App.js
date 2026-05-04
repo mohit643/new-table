@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./CssFile.css";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -35,9 +36,9 @@ function App() {
           {users.map((user, index) => (
             <tr
               key={index}
-              style={{
-                backgroundColor: index % 2 === 0 ? "#ffffff" : "#f2f2f2",
-              }}
+              // style={{
+              //   backgroundColor: index % 2 === 0 ? "#ffffff" : "#f2f2f2",
+              // }}
             >
               <td>{user.firstName}</td>
               <td>{user.lastName}</td>
