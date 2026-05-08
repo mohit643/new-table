@@ -1,5 +1,4 @@
 import { FOOTER_COLS, CONTACT_LINKS } from "../../data";
-import { scrollTo } from "../../utils/hooks";
 
 export default function Footer() {
   return (
