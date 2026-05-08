@@ -2,23 +2,22 @@ import { useState } from "react";
 import "./styles.css";
 
 // ── Core components ───────────────────────────────────────────────
-import Loader from "./components/DotGrid/Loader";
-import Navbar from "./components/DotGrid/Navbar";
-import Footer from "./components/DotGrid/Footer";
+import Loader  from "./components/Loader";
+import Navbar  from "./components/Navbar";
+import Footer  from "./components/Footer";
 
-// ── Page   (one per file) ──────────────────────────────────
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Vision from "./sections/Vision";
-import WhyAluminium from "./sections/WhyAluminium";
-import Products from "./Products";
-import TechSpecs from "./TechSpecs";
-import Manufacturing from "./Manufacturing";
-import Services from "./Services";
-import Projects from "./sections/Projects";
-// import Comparison from "./ /Comparison";
-import Contact from "./sections/Contact";
-import Comparison from "./sections/Comparison";
+// ── Page sections (one per file) ──────────────────────────────────
+import Hero           from "./sections/Hero";
+import About          from "./sections/About";
+import Vision         from "./sections/Vision";
+import WhyAluminium   from "./sections/WhyAluminium";
+import Products       from "./sections/Products";
+import TechSpecs      from "./sections/TechSpecs";
+import Manufacturing  from "./sections/Manufacturing";
+import Services       from "./sections/Services";
+import Projects       from "./sections/Projects";
+import Comparison     from "./sections/Comparison";
+import Contact        from "./sections/Contact";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
